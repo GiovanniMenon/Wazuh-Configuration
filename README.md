@@ -1,4 +1,5 @@
 # Blue Team Setup
+This repository contains configuration files and instructions for setting up a Blue Team security environment using Wazuh, Suricata, VirusTotal integration, and system hardening techniques. 
 ## Wazuh
 
 ### Wazuh Installation & Configuration
