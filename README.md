@@ -176,3 +176,11 @@ iptables -A INPUT  -m limit --limit 5/min --limit-burst 10 \
 iptables -A OUTPUT -m limit --limit 5/min --limit-burst 10 \
   -j LOG --log-prefix "[IPTABLES-OUTPUT-DROP] " --log-level 4
 ```
+
+## Playbooks
+
+**Future Work**:
+- [ ] Create Ansible playbook to automate the hardening and setup process.
+- [ ] Playbook for BruteForce Attack.
+- [ ] Playbook for Malware Detection and Quarantine.
+- [ ] Playbook for Network Intrusion Detection.
